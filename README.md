@@ -2,7 +2,7 @@
 
 Get started publishing Arc XP content to Apple News using IFX
 
-Our recipe can be found here (link pending).
+Our recipe can be found [here](https://docs.arcxp.com/alc/en/ifx-node-js-recipe-pushing-arc-xp-content-to-apple-news?id=kb_article_view&sys_kb_id=993663ce47a53150eee38788436d4360&spa=1).
 
 ## Build Status
 
