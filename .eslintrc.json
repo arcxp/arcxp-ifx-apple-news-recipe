@@ -1,0 +1,18 @@
+{
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "es2021": true,
+        "jest/globals": true
+    },
+    "extends": [
+        "standard",
+        "plugin:jest/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "ignorePatterns": ["src/eventsHandlers.js"],
+    "rules": {
+    }
+}

@@ -1,0 +1,721 @@
+{
+  "orgMetadata": {
+    "isCandidateToBeFeatured": false,
+    "isHidden": false,
+    "isSponsored": false,
+    "isPreview": false,
+    "isPaid": false,
+    "maturityRating": "GENERAL",
+    "targetTerritoryCountryCodes": [
+      "US"
+    ]
+  },
+  "websites": {
+    "example-website-id-1": {
+      "styling": {
+        "componentLayouts": {
+          "advertisementLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 15,
+              "top": 15
+            }
+          },
+          "authorLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 1,
+              "top": 5
+            }
+          },
+          "bioLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 35,
+              "top": 15
+            }
+          },
+          "bodyLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 15,
+              "top": 15
+            }
+          },
+          "bylineLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 10,
+              "top": 20
+            }
+          },
+          "captionLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 15,
+              "top": 5
+            }
+          },
+          "dividerLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 25,
+              "top": 25
+            }
+          },
+          "fbLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 10,
+              "top": 10
+            }
+          },
+          "galleryLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 25,
+              "top": 25
+            }
+          },
+          "headerContainerLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "ignoreDocumentGutter": true,
+            "ignoreDocumentMargin": true,
+            "minimumHeight": "50vh"
+          },
+          "headerImageLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "ignoreDocumentGutter": true,
+            "ignoreDocumentMargin": "true",
+            "margin": {
+              "bottom": 5,
+              "top": 0
+            }
+          },
+          "headingLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 0,
+              "top": 10
+            }
+          },
+          "instagramLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 10,
+              "top": 10
+            }
+          },
+          "introLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 15,
+              "top": 5
+            }
+          },
+          "logoContainerLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "ignoreDocumentMargin": true,
+            "minimumHeight": "5vh"
+          },
+          "logoImageLayout": {
+            "columnSpan": 5,
+            "columnStart": 1,
+            "ignoreDocumentMargin": "true",
+            "margin": {
+              "bottom": 10,
+              "top": 10
+            }
+          },
+          "photoLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 10,
+              "top": 15
+            }
+          },
+          "pullquoteAttributeLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 30,
+              "top": 0
+            }
+          },
+          "pullquoteLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 15,
+              "top": 30
+            }
+          },
+          "quoteLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "contentInset": true,
+            "margin": {
+              "bottom": 10,
+              "top": 10
+            }
+          },
+          "titleLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 20,
+              "top": 20
+            }
+          },
+          "twitterLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 10,
+              "top": 10
+            }
+          },
+          "youtubeLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 10,
+              "top": 10
+            }
+          },
+          "videoLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "ignoreDocumentMargin": "true",
+            "margin": {
+              "bottom": 5,
+              "top": 15
+            }
+          }
+        },
+        "componentStyles": {
+          "containerStyle": {
+            "backgroundColor": "#ffffff"
+          },
+          "logoContainerStyle": {
+            "backgroundColor": "#f68E01"
+          }
+        },
+        "componentTextStyles": {
+          "bioStyle": {
+            "fontName": "IowanOldStyle-BoldItalic",
+            "fontSize": 14,
+            "lineHeight": 16,
+            "linkStyle": {
+              "textColor": "#2a6496"
+            },
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "textTransform": "none"
+          },
+          "dateStyle": {
+            "fontName": "IowanOldStyle-BoldItalic",
+            "fontSize": 14,
+            "lineHeight": 16,
+            "textAlignment": "left",
+            "textColor": "#2a2a2a",
+            "textTransform": "none"
+          },
+          "default": {
+            "fontName": "IowanOldStyle-Roman",
+            "fontSize": 17,
+            "lineHeight": 26,
+            "textAlignment": "left",
+            "textColor": "#2a2a2a"
+          },
+          "default-author": {
+            "fontName": "IowanOldStyle-BoldItalic",
+            "fontSize": 14,
+            "lineHeight": 16,
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "textTransform": "none"
+          },
+          "default-body": {
+            "fontName": "IowanOldStyle-Roman",
+            "fontSize": 17,
+            "lineHeight": 26,
+            "linkStyle": {
+              "textColor": "#be0006"
+            },
+            "textAlignment": "left",
+            "textColor": "#333333"
+          },
+          "default-byline": {
+            "fontName": "IowanOldStyle-BoldItalic",
+            "fontSize": 13,
+            "lineHeight": 16,
+            "textAlignment": "left",
+            "textColor": "#2a6496",
+            "textTransform": "none"
+          },
+          "default-caption": {
+            "fontName": "IowanOldStyle-Italic",
+            "fontSize": 15,
+            "lineHeight": 17,
+            "linkStyle": {
+              "textColor": "#2a6496"
+            },
+            "textAlignment": "center",
+            "textColor": "#767676"
+          },
+          "default-heading": {
+            "fontName": "Georgia",
+            "fontSize": 18,
+            "lineHeight": 24,
+            "linkStyle": {
+              "textColor": "#333333"
+            },
+            "textAlignment": "left",
+            "textColor": "#333333"
+          },
+          "default-intro": {
+            "fontName": "IowanOldStyle-Italic",
+            "fontSize": 21,
+            "lineHeight": 26,
+            "linkStyle": {
+              "textColor": "#2a6496"
+            },
+            "textAlignment": "left",
+            "textColor": "#767676"
+          },
+          "default-pullquote": {
+            "fontName": "IowanOldStyle-Italic",
+            "fontSize": 30,
+            "lineHeight": 40,
+            "linkStyle": {
+              "textColor": "#2a6496"
+            },
+            "textAlignment": "center",
+            "textColor": "#333333"
+          },
+          "default-quote": {
+            "fontName": "IowanOldStyle-Italic",
+            "fontSize": 17,
+            "lineHeight": 24,
+            "linkStyle": {
+              "textColor": "#2a6496"
+            },
+            "textAlignment": "left",
+            "textColor": "#333333"
+          },
+          "default-title": {
+            "fontName": "Georgia-Bold",
+            "fontSize": 35,
+            "lineHeight": 40,
+            "textAlignment": "left",
+            "textColor": "#2a2a2a"
+          },
+          "pullquoteAttributeStyle": {
+            "fontName": "IowanOldStyle-Italic",
+            "fontSize": 16,
+            "lineHeight": 18,
+            "textAlignment": "center",
+            "textColor": "#767676",
+            "textTransform": "none"
+          },
+          "teaserStyle": {
+            "fontName": "IowanOldStyle-Italic",
+            "fontSize": 18,
+            "lineHeight": 26,
+            "textAlignment": "left",
+            "textColor": "#AAAAAA"
+          }
+        },
+        "layout": {
+          "columns": 7,
+          "gutter": 40,
+          "margin": 90,
+          "width": 840
+        }
+      },
+      "metadata": {},
+      "sections": {
+        "default": {
+          "name": "Main",
+          "url": "https://news-api.apple.com/sections/real-apple-channel-section-id",
+          "metadata": {}
+        },
+        "/amazing-section": {
+          "name": "Amazing Section",
+          "url": "https://news-api.apple.com/sections/real-apple-channel-section-id-2",
+          "metadata": {}
+        }
+      }
+    },
+    "example-website-id-2": {
+      "styling": {
+        "componentLayouts": {
+          "advertisementLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 15,
+              "top": 15
+            }
+          },
+          "authorLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 1,
+              "top": 5
+            }
+          },
+          "bioLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 35,
+              "top": 15
+            }
+          },
+          "bodyLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 15,
+              "top": 15
+            }
+          },
+          "bylineLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 10,
+              "top": 20
+            }
+          },
+          "captionLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 15,
+              "top": 5
+            }
+          },
+          "dividerLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 25,
+              "top": 25
+            }
+          },
+          "fbLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 10,
+              "top": 10
+            }
+          },
+          "galleryLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 25,
+              "top": 25
+            }
+          },
+          "headerContainerLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "ignoreDocumentGutter": true,
+            "ignoreDocumentMargin": true,
+            "minimumHeight": "50vh"
+          },
+          "headerImageLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "ignoreDocumentGutter": true,
+            "ignoreDocumentMargin": "true",
+            "margin": {
+              "bottom": 5,
+              "top": 0
+            }
+          },
+          "headingLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 0,
+              "top": 10
+            }
+          },
+          "instagramLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 10,
+              "top": 10
+            }
+          },
+          "introLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 15,
+              "top": 5
+            }
+          },
+          "logoContainerLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "ignoreDocumentMargin": true,
+            "minimumHeight": "5vh"
+          },
+          "logoImageLayout": {
+            "columnSpan": 5,
+            "columnStart": 1,
+            "ignoreDocumentMargin": "true",
+            "margin": {
+              "bottom": 10,
+              "top": 10
+            }
+          },
+          "photoLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 10,
+              "top": 15
+            }
+          },
+          "pullquoteAttributeLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 30,
+              "top": 0
+            }
+          },
+          "pullquoteLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 15,
+              "top": 30
+            }
+          },
+          "quoteLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "contentInset": true,
+            "margin": {
+              "bottom": 10,
+              "top": 10
+            }
+          },
+          "titleLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 20,
+              "top": 20
+            }
+          },
+          "twitterLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 10,
+              "top": 10
+            }
+          },
+          "youtubeLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "margin": {
+              "bottom": 10,
+              "top": 10
+            }
+          },
+          "videoLayout": {
+            "columnSpan": 7,
+            "columnStart": 0,
+            "ignoreDocumentMargin": "true",
+            "margin": {
+              "bottom": 5,
+              "top": 15
+            }
+          }
+        },
+        "componentStyles": {
+          "containerStyle": {
+            "backgroundColor": "#ffffff"
+          },
+          "logoContainerStyle": {
+            "backgroundColor": "#f68E01"
+          }
+        },
+        "componentTextStyles": {
+          "bioStyle": {
+            "fontName": "IowanOldStyle-BoldItalic",
+            "fontSize": 14,
+            "lineHeight": 16,
+            "linkStyle": {
+              "textColor": "#2a6496"
+            },
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "textTransform": "none"
+          },
+          "dateStyle": {
+            "fontName": "IowanOldStyle-BoldItalic",
+            "fontSize": 14,
+            "lineHeight": 16,
+            "textAlignment": "left",
+            "textColor": "#2a2a2a",
+            "textTransform": "none"
+          },
+          "default": {
+            "fontName": "IowanOldStyle-Roman",
+            "fontSize": 17,
+            "lineHeight": 26,
+            "textAlignment": "left",
+            "textColor": "#2a2a2a"
+          },
+          "default-author": {
+            "fontName": "IowanOldStyle-BoldItalic",
+            "fontSize": 14,
+            "lineHeight": 16,
+            "textAlignment": "left",
+            "textColor": "#333333",
+            "textTransform": "none"
+          },
+          "default-body": {
+            "fontName": "IowanOldStyle-Roman",
+            "fontSize": 17,
+            "lineHeight": 26,
+            "linkStyle": {
+              "textColor": "#be0006"
+            },
+            "textAlignment": "left",
+            "textColor": "#333333"
+          },
+          "default-byline": {
+            "fontName": "IowanOldStyle-BoldItalic",
+            "fontSize": 13,
+            "lineHeight": 16,
+            "textAlignment": "left",
+            "textColor": "#2a6496",
+            "textTransform": "none"
+          },
+          "default-caption": {
+            "fontName": "IowanOldStyle-Italic",
+            "fontSize": 15,
+            "lineHeight": 17,
+            "linkStyle": {
+              "textColor": "#2a6496"
+            },
+            "textAlignment": "center",
+            "textColor": "#767676"
+          },
+          "default-heading": {
+            "fontName": "Georgia",
+            "fontSize": 18,
+            "lineHeight": 24,
+            "linkStyle": {
+              "textColor": "#333333"
+            },
+            "textAlignment": "left",
+            "textColor": "#333333"
+          },
+          "default-intro": {
+            "fontName": "IowanOldStyle-Italic",
+            "fontSize": 21,
+            "lineHeight": 26,
+            "linkStyle": {
+              "textColor": "#2a6496"
+            },
+            "textAlignment": "left",
+            "textColor": "#767676"
+          },
+          "default-pullquote": {
+            "fontName": "IowanOldStyle-Italic",
+            "fontSize": 30,
+            "lineHeight": 40,
+            "linkStyle": {
+              "textColor": "#2a6496"
+            },
+            "textAlignment": "center",
+            "textColor": "#333333"
+          },
+          "default-quote": {
+            "fontName": "IowanOldStyle-Italic",
+            "fontSize": 17,
+            "lineHeight": 24,
+            "linkStyle": {
+              "textColor": "#2a6496"
+            },
+            "textAlignment": "left",
+            "textColor": "#333333"
+          },
+          "default-title": {
+            "fontName": "Georgia-Bold",
+            "fontSize": 35,
+            "lineHeight": 40,
+            "textAlignment": "left",
+            "textColor": "#2a2a2a"
+          },
+          "pullquoteAttributeStyle": {
+            "fontName": "IowanOldStyle-Italic",
+            "fontSize": 16,
+            "lineHeight": 18,
+            "textAlignment": "center",
+            "textColor": "#767676",
+            "textTransform": "none"
+          },
+          "teaserStyle": {
+            "fontName": "IowanOldStyle-Italic",
+            "fontSize": 18,
+            "lineHeight": 26,
+            "textAlignment": "left",
+            "textColor": "#AAAAAA"
+          }
+        },
+        "layout": {
+          "columns": 7,
+          "gutter": 40,
+          "margin": 90,
+          "width": 840
+        }
+      },
+      "metadata": {},
+      "sections": {
+        "default": {
+          "name": "Main",
+          "url": "https://news-api.apple.com/sections/real-apple-channel-section-id",
+          "metadata": {}
+        },
+        "/breaking-news": {
+          "name": "Breaking News",
+          "url": "https://news-api.apple.com/sections/real-apple-channel-section-id-2",
+          "metadata": {}
+        }
+      }
+    }
+  }
+}

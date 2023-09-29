@@ -1,0 +1,6 @@
+{
+  "storyPublishHandler": ["story:first-publish"],
+  "storyRepublishHandler": ["story:update", "story:republish"],
+  "storyUnpublishHandler": ["story:unpublish"],
+  "storyDeleteHandler": ["story:delete"]
+}
