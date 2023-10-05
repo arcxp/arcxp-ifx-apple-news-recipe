@@ -1,4 +1,4 @@
-const { processStoryRepublish, processStoryUnpublish, getWebsitesFromEvent } = require('../utils/handlerHelpers')
+const { processStoryRepublish, processStoryUnpublish, getWebsitesFromEvent, delay } = require('../utils/handlerHelpers')
 const { scanIdMappings } = require('../services/idMappingRepository')
 const { documentClient } = require('../utils/dynamoDBHelpers')
 const { getStory } = require('../services/contentAPI')
@@ -37,6 +37,10 @@ const storyRepublishHandler = async (event) => {
 
   // republish to previously published circulations and publish to recently added circulations
   const websitesToRepublish = getWebsitesFromEvent(event.body)
+
+  if (process.env.CONTENT_API_REQUEST_DELAY > 0) {
+    await delay(process.env.CONTENT_API_REQUEST_DELAY)
+  }
 
   const getStoryResponse = await getStory(event.body._id, websitesToRepublish[0])
   if (!isResponseStatusOk(getStoryResponse.status)) {

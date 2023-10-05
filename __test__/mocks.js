@@ -1835,27 +1835,27 @@ const mockedBaseEvent = {
 
 const mockedFirstPublishEvent = {
   ...mockedBaseEvent,
-  eventName: 'story:first-publish'
+  key: 'story:first-publish'
 }
 
 const mockedUnpublishEvent = {
   ...mockedBaseEvent,
-  eventName: 'story:unpublish'
+  key: 'story:unpublish'
 }
 
 const mockedRepublishEvent = {
   ...mockedBaseEvent,
-  eventName: 'story:republish'
+  key: 'story:republish'
 }
 
 const mockedDeleteEvent = {
   ...mockedBaseEvent,
-  eventName: 'story:delete'
+  key: 'story:delete'
 }
 
 const mockedDefaultEvent = {
   ...mockedBaseEvent,
-  eventName: 'story:other'
+  key: 'story:other'
 }
 
 const mockedAppleNewsArticle = {

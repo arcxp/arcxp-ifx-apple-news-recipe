@@ -1,4 +1,5 @@
 const {
+  delay,
   getWebsitesFromEvent,
   getWebsiteCredentials,
   processStoryPublish,
@@ -34,10 +35,19 @@ jest.mock('../../src/services/idMappingRepository', () => ({
 }))
 
 const logSpy = jest.spyOn(process.stdout, 'write').mockImplementation(() => {})
+jest.spyOn(global, 'setTimeout')
 
 describe('handler helpers', () => {
   beforeEach(() => {
     logSpy.mockClear()
+  })
+
+  test('delay triggers a setTimeout with a configured number of ms', async () => {
+    const milisecondsToDelay = process.env.CONTENT_API_REQUEST_DELAY
+    await delay(milisecondsToDelay)
+
+    expect(setTimeout).toHaveBeenCalledTimes(1)
+    expect(setTimeout).toHaveBeenCalledWith(expect.any(Function), milisecondsToDelay)
   })
 
   test('getWebsitesFromEvent returns a list of strings', () => {

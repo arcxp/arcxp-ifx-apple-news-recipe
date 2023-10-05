@@ -4,7 +4,8 @@ const { processStoryPublish, getWebsitesFromEvent } = require('../../src/utils/h
 const { getStory } = require('../../src/services/contentAPI')
 jest.mock('../../src/utils/handlerHelpers', () => ({
   getWebsitesFromEvent: jest.fn(),
-  processStoryPublish: jest.fn()
+  processStoryPublish: jest.fn(),
+  delay: jest.fn()
 }))
 
 jest.mock('../../src/services/contentAPI', () => ({

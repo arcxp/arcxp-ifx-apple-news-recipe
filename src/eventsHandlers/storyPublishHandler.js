@@ -1,4 +1,4 @@
-const { getWebsitesFromEvent, processStoryPublish } = require('../utils/handlerHelpers')
+const { getWebsitesFromEvent, processStoryPublish, delay } = require('../utils/handlerHelpers')
 const { getStory } = require('../services/contentAPI')
 const { isResponseStatusOk } = require('../utils/httpRequestHelpers')
 const { namedLogger } = require('../utils/namedLogger')
@@ -9,6 +9,10 @@ const storyPublishHandler = async (event) => {
   })
 
   const websites = getWebsitesFromEvent(event.body)
+
+  if (process.env.CONTENT_API_REQUEST_DELAY > 0) {
+    await delay(process.env.CONTENT_API_REQUEST_DELAY)
+  }
 
   const getStoryResponse = await getStory(event.body._id, websites[0])
   if (!isResponseStatusOk(getStoryResponse.status)) {

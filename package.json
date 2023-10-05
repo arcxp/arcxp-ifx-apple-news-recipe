@@ -20,7 +20,7 @@
     "createProdBundle": "npm install && npm run validate && zip -r bundles/prod_$(date +'%Y-%m-%d_%H-%M-%S').zip src/ node_modules/ apple-news-conf-production.json .env.production"
   },
   "dependencies": {
-    "@arcxp/arcxp-ifx-node-sdk": "1.2.0",
+    "@arcxp/arcxp-ifx-node-sdk": "1.2.2",
     "@aws-sdk/client-dynamodb": "^3.387.0",
     "@aws-sdk/lib-dynamodb": "^3.387.0",
     "axios": "^1.4.0",

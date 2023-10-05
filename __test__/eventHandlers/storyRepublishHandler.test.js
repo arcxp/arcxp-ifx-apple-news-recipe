@@ -6,7 +6,8 @@ const { getStory } = require('../../src/services/contentAPI')
 
 jest.mock('../../src/utils/handlerHelpers', () => ({
   getWebsitesFromEvent: jest.fn(),
-  processStoryRepublish: jest.fn()
+  processStoryRepublish: jest.fn(),
+  delay: jest.fn()
 }))
 
 jest.mock('../../src/services/idMappingRepository', () => ({

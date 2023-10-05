@@ -5,6 +5,10 @@ const { createIdMapping, updateIdMapping, deleteIdMapping } = require('../servic
 const { documentClient } = require('./dynamoDBHelpers')
 const { namedLogger } = require('./namedLogger')
 
+const delay = (ms) => {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+
 const getWebsitesFromEvent = (eventBody) => ('_website_ids' in eventBody ? eventBody._website_ids : [])
 
 const getWebsiteCredentials = (website) => {
@@ -242,6 +246,7 @@ const processStoryDelete = async (website, idMappings) => {
 }
 
 module.exports = {
+  delay,
   getWebsitesFromEvent,
   getWebsiteCredentials,
   processStoryPublish,
